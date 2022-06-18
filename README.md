@@ -66,7 +66,7 @@ Please cite the software in publications;
 To cite this GitHub repository:
 
 ```r
-To cite this data in publications use:
+To cite *acdc* package in publications use:
 
   Yun, Seong D., 2022, "acdc: Agro-Climatic Data by County," Data retrieved from the GitHub,
   https://github.com/ysd2004/acdc.
