@@ -95,6 +95,12 @@ The methods and examples in *acdc* are available from:
 
 Below are the development history of R-package *acdc*.
 
+* 06-18-2022: V. 1.0.0 is installable from GitHub.
+
+* 06-01-2022: V. 1.0.0 was embeded in GitHub.
+
+* 04-30-2021: The first beta version was tested.
+
 * 12-01-2020: The first R-package version *acdc* was initiated to code.
 
 * 05-08-2019: Published the journal article of ACDC v1.0.0 on *Data* (<https://doi.org/10.3390/data4020066>)
