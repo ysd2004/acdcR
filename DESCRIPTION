@@ -2,29 +2,24 @@ Package: acdc
 Type: Package
 Title: Agro-Climatic Data by County
 Version: 1.0.0
-Date: 2020-12-27
+Date: 2022-06-14
 Authors@R: c(
             person("Seong D.","Yun",role=c("aut","cre"),email="seong.yun@msstate.edu"),
-            person("Benjamin M.","Gramig",role=c("aut"),email="bgramig@illinois.edu"))
+            person("Benjamin M.","Gramig",role=c("aut"),email="Benjamin.Gramig@usda.gov"))
 Author: Seong D. Yun [aut, cre],
     Benjamin M. Gramig [aut, ctb]
 Maintainer: Seong D. Yun <seong.yun@msstate.edu>
-Description: An R-package Agro-Climatic Data by County (*acdc*) is designed to provide a county level
-base dataset and canned functions for use in agricultural production and climate/weather research. 
-Due to the recent popularity of raster imagery data (high resolution grid cell data), the demand for 
-weather, soil/land and related data for research and applied decision support is increasing rapidly. 
-The *acdc* is developed to provide the most widely-used variables extracted from the most popular high
-resolution gridded data sources to end users of agro-climatic variables who may not be equipped to 
-process large geospatial datasets from multiple publicly available sources that are provided in 
-different data formats and spatial scales. Annual county level data are provided for 
-corn, soybeans, upland cotton and winter wheat yields, and customizable growing degree days and 
-cumulative precipitation for two groups of months (March-August and April-October) to capture 
-different growing season periods for the crops. Soil characteristic data are also included for each 
-county in the data set. All weather and soil data have been processed based on land cover/land use 
-data and exclude soil and weather data for land that is not being used for non-forestry agricultural 
-uses.
-Acknowledgement: Development of this package was generously supported by the Knobloch Family Foundation.
+Description: An R-package Agro-Climatic Data by County (*acdc*) is designed to provide
+  base functions to calculate the most widely-used county-level variables in agricultural 
+  production or agro-climatic and weather analyses.
+Acknowledgement: Authors are grateful for financial support through the “Sustainable Bioenergy 
+  Production and Integrated Valuation of Ecosystem Services” project provided by United States 
+  Department of Agriculture (USDA) National Institute for Food and Agriculture (NIFA) Agriculture 
+  and Food Research Initiative (AFRI) competitive award [no. 2019-67024-29677]. 
+  The views expressed herein do not necessarily reflect the views of the USDA-NIFA.
 Depends:
     R (>= 4.0.0)
 License: GPL (>= 2)
+Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.2.0
