@@ -15,7 +15,8 @@ Mississippi State University\
 1 *acdc* R-package
 ==========
 
-An R-package Agro-Climatic Data by County (*acdc*) is designed to provide a county level base dataset and canned functions for use in agricultural production and climate/weather research. Due to the recent popularity of raster imagery data (high resolution grid cell data), the demand for weather, soil/land and related data for research and applied decision support is increasing rapidly. The *acdc* is developed to provide the most widely-used variables extracted from the most popular high resolution gridded data sources to end users of agro-climatic variables who may not be equipped to process large geospatial datasets from multiple publicly available sources that are provided in different data formats and spatial scales. Annual county level data are provided for corn, soybeans, upland cotton and winter wheat yields, and customizable growing degree days and cumulative precipitation for two groups of months (March-August and April-October) to capture different growing season periods for the crops. Soil characteristic data are also included for each county in the data set. All weather and soil data have been processed based on land cover/land use data and exclude soil and weather data for land that is not being used for non-forestry agricultural uses.
+An R-package Agro-Climatic Data by County (*acdc*) is designed to provide the functions to calculate
+the most widely-used county-level variables in agricultural production or agro-climatic and weather analyses. *acdc* applies the most recent NLCD maps (2001, 2004, 2006, 2008, 2011, 2013, 2016, and 2019) to take agricultural areas only weighted averages over the PRISM rasters. In the current version of *acdc*, there are functions to calculate growing season degree days (GDDs) with single/double sine/triangulation methods, to produce GDDs and precipitations by the PRISM grids or County FIPS codes from the direct input of PRISM rasters, and to convert the PRISM grids data to county-level values
 
 2 Getting started:
 ==================
@@ -47,7 +48,8 @@ For your testing purpose, a version currently developing is available from this 
 3 Authors
 ====================================
 Seong D. Yun, Assistant Professor, Mississippi State University (<seong.yun@msstate.edu>)
-Benjamin M. Gramig, Associate Professor, Yale University (<bgramig@illinois.edu>)
+
+Note: Benjamin M. Gramig, Research Agricultural Economist at USDA-ERS provides great help and advice to build this package.
 
 Maintainer/Bug report or quetion to Seong Yun (<seong.yun@msstate.edu>)
 
