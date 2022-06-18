@@ -63,7 +63,24 @@ Please cite the software in publications;
 
 4.2. *acdc* (testing) from the R-CRAN repository
 ---------------------------------
-(under coding)
+To cite this GitHub repository:
+
+```r
+To cite this data in publications use:
+
+  Yun, Seong D., 2022, "acdc: Agro-Climatic Data by County," Data retrieved from the GitHub,
+  https://github.com/ysd2004/acdc.
+
+A BibTeX entry for LaTeX users is
+
+  @misc{,
+    title = {acdc: Agro-Climatic Data by County},
+    author = {Seong D. Yun},
+    year = {2022},
+    note = {Data retrieved from the GitHub,
+    \url{https://github.com/ysd2004/acdc}}
+  }
+```
 
 
 5 References
