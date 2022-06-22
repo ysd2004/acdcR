@@ -54,7 +54,8 @@ The functions of *gddprism* and *pptprism* are directly convert a PRISM raster t
 ====================================
 Seong D. Yun, Assistant Professor, Mississippi State University (<seong.yun@msstate.edu>)
 
-Note: Benjamin M. Gramig, Research Agricultural Economist at USDA-ERS provides great help and advice to build this package.
+Note: (Dr.) Benjamin M. Gramig, Research Agricultural Economist at USDA-ERS provides great insights, 
+helpful data resources, and kind advice to build this package.
 
 Maintainer/Bug report or quetion to Seong Yun (<seong.yun@msstate.edu>)
 
@@ -106,6 +107,13 @@ A BibTeX entry for LaTeX users is
   }
 ```
 
+5 Acknowledgement
+====================================
+The author is grateful for financial support through the “Sustainable Bioenergy Production and Integrated Valuation of Ecosystem Services” project provided by United States Department of Agriculture (USDA) National Institute for Food and Agriculture (NIFA) Agriculture and Food Research Initiative (AFRI) competitive award [no. 2019-67024-29677].
+
+The former efforts to generate the data for this package was gratefully supported by the Agriculture and Food Research Initiative (AFRI) competitive grant no. 2011-68002-30110 from the USDA National Institute of Food and Agriculture (NIFA).
+
+The views expressed herein do not necessarily reflect the views of the USDA-NIFA. 
 
 5 References
 ====================================
