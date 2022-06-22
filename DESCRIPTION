@@ -1,28 +1,24 @@
-Package: acdc
+Package: acdcR
 Type: Package
-Title: Agro-Climatic Data by County
+Title: Agro-Climatic Data by County for R
 Version: 1.0.0
 Date: 2022-06-14
 Authors@R: c(
-            person("Seong D.","Yun",role=c("aut","cre"),email="seong.yun@msstate.edu"),
-            person("Benjamin M.","Gramig",role=c("aut"),email="Benjamin.Gramig@usda.gov"))
+            person("Seong D.","Yun",role=c("aut","cre"),email="seong.yun@msstate.edu"))
 Author: Seong D. Yun [aut, cre]
 Maintainer: Seong D. Yun <seong.yun@msstate.edu>
-Description: An R-package Agro-Climatic Data by County (*acdc*) is designed to provide
+Description: An R-package Agro-Climatic Data by County for R (*acdcR*) is designed to provide
   base functions to calculate the most widely-used county-level variables in agricultural 
-  production or agro-climatic and weather analyses. To operate some functions in this pacakge
-  needs download of the bulk PRISM raster. See the examples, tesing versions and more details from:
-  <https://github.com/ysd2004/acdc.git>.
-Acknowledgement: Authors are grateful for financial support through the “Sustainable Bioenergy 
-  Production and Integrated Valuation of Ecosystem Services” project provided by United States 
-  Department of Agriculture (USDA) National Institute for Food and Agriculture (NIFA) Agriculture 
-  and Food Research Initiative (AFRI) competitive award [no. 2019-67024-29677]. 
-  The views expressed herein do not necessarily reflect the views of the USDA-NIFA. For this package,
-  (Dr.) Benjamin M. Gramig, Research Agricultural Economist at USDA-ERS provides great insights, 
-  helful data resources, and kind advice to build this package.
+  production or agricultural-climatic and weather analyses. To operate some functions in this package
+  needs download of the bulk PRISM raster. See the examples, testing versions and more details from:
+  <https://github.com/ysd2004/acdcR>.
 Depends:
     R (>= 4.0.0)
+    raster
+    data.table
 License: GPL (>= 2)
+URL: https://github.com/ysd2004/acdcR
+BugReports: 
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.0
