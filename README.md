@@ -45,6 +45,11 @@ For your testing purpose, a version currently developing is available from this 
     library(acdc)
 ```
 
+2.3. To get the county values from a PRISM raster:
+---------------------------------
+The functions of *gddprism* and *pptprism* are directly convert a PRISM raster to county or PRISM grid values. For this purpose, users need to download a raw weater data from the [PRISM Climate Group](https://www.prism.oregonstate.edu/) of the Oregon State University. To download the bulk raster files through the FTP, follow the instructions: [link](https://prism.oregonstate.edu/documents/PRISM_downloads_FTP.pdf).
+
+
 3 Authors
 ====================================
 Seong D. Yun, Assistant Professor, Mississippi State University (<seong.yun@msstate.edu>)
