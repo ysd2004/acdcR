@@ -8,7 +8,7 @@ Department of Agricultural Economics\
 Mississippi State University\
 **<seong.yun@msstate.edu>**\
 **<https://sites.google.com/site/yunsd2004/>**\
-*Last updated: Dec 25, 2020*
+*Last updated: Jun. 21, 2022*
 
 ------------------------------------------------------------------------
 
@@ -16,7 +16,7 @@ Mississippi State University\
 ==========
 
 An R-package Agro-Climatic Data by County (*acdc*) is designed to provide the functions to calculate
-the most widely-used county-level variables in agricultural production or agro-climatic and weather analyses. *acdc* applies the most recent NLCD maps (2001, 2004, 2006, 2008, 2011, 2013, 2016, and 2019) to take agricultural areas only weighted averages over the PRISM rasters. In the current version of *acdc*, there are functions to calculate growing season degree days (GDDs) with single/double sine/triangulation methods, to produce GDDs and precipitations by the PRISM grids or County FIPS codes from the direct input of PRISM rasters, and to convert the PRISM grids data to county-level values
+the most widely-used county-level variables in agricultural production or agro-climatic and weather analyses. *acdc* applies the most recent NLCD maps (2001, 2004, 2006, 2008, 2011, 2013, 2016, and 2019) to take account of agricultural areas only weighted averages over the PRISM rasters. In the current version of *acdc*, there are functions to calculate growing season degree days (GDDs) with single/double sine/triangulation methods, to produce GDDs and precipitations by the PRISM grids or County FIPS codes from the direct input of PRISM rasters, and to convert the PRISM grids data to county-level values.
 
 2 Getting started:
 ==================
@@ -59,7 +59,26 @@ Please cite the software in publications;
 
 4.1. *acdc* (stable and latest) from the R-CRAN repository
 ---------------------------------
-(under coding)
+To cite the R-package *acdc*, use `citation()` for information on how to cite the software;
+
+```r
+citation(package = "acdc")
+ 
+To cite package 'acdc' in publications use:
+
+  Seong D. Yun, (2022). acdc: Agro-Climatic Data by County. 
+  R package version 1.0.0. https://CRAN.R-project.org/package=acdc
+
+A BibTeX entry for LaTeX users is
+
+  @Manual{,
+    title = {acdc: Agro-Climatic Data by County.},
+    author = {Seong D. Yun},
+    year = {2022},
+    note = {R package version 1.0.0},
+    url = {https://CRAN.R-project.org/package=acdc},
+  }
+```
 
 4.2. *acdc* (testing) from the R-CRAN repository
 ---------------------------------
