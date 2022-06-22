@@ -12,27 +12,27 @@ Mississippi State University\
 
 ------------------------------------------------------------------------
 
-1 *acdc* R-package
+1 *acdcR* R-package
 ==========
 
-An R-package Agro-Climatic Data by County (*acdc*) is designed to provide the functions to calculate
-the most widely-used county-level variables in agricultural production or agro-climatic and weather analyses. *acdc* applies the most recent NLCD maps (2001, 2004, 2006, 2008, 2011, 2013, 2016, and 2019) to take account of agricultural areas only weighted averages over the PRISM rasters. In the current version of *acdc*, there are functions to calculate growing season degree days (GDDs) with single/double sine/triangulation methods, to produce GDDs and precipitations by the PRISM grids or County FIPS codes from the direct input of PRISM rasters, and to convert the PRISM grids data to county-level values.
+An R-package Agro-Climatic Data by County (*acdcR*) is designed to provide the functions to calculate
+the most widely-used county-level variables in agricultural production or agro-climatic and weather analyses. *acdcR* applies the most recent NLCD maps (2001, 2004, 2006, 2008, 2011, 2013, 2016, and 2019) to take account of agricultural areas only weighted averages over the PRISM rasters. In the current version of *acdcR*, there are functions to calculate growing season degree days (GDDs) with single/double sine/triangulation methods, to produce GDDs and precipitations by the PRISM grids or County FIPS codes from the direct input of PRISM rasters, and to convert the PRISM grids data to county-level values.
 
 2 Getting started:
 ==================
 
-2.1. Install the latest version (complete) of *acdc* from the R-CRAN repository:
+2.1. Install the latest version (complete) of *acdcR* from the R-CRAN repository:
 --------------------------------------------------
 
-The latest version of *acdc* is available from the R-CRAN repository. Users can install and use all functions and features directly installing it from the R-CRAN repository.
+The latest version of *acdcR* is available from the R-CRAN repository. Users can install and use all functions and features directly installing it from the R-CRAN repository.
 
 ``` r
     ## In R
-    install.packages("acdc")
-    library(acdc)
+    install.packages("acdcR")
+    library(acdcR)
 ```
 
-2.2. Install *acdc* testing version from the github repository:
+2.2. Install *acdcR* testing version from the github repository:
 ---------------------------------
 For your testing purpose, a version currently developing is available from this GitHub repository.
 
@@ -41,8 +41,8 @@ For your testing purpose, a version currently developing is available from this 
     ## Need to install devtools packages
     install.packages("devtools")
     ## Then use
-    devtools::install_github("ysd2004/acdc")
-    library(acdc)
+    devtools::install_github("ysd2004/acdcR")
+    library(acdcR)
 ```
 
 2.3. To get the county values from a PRISM raster:
@@ -62,54 +62,54 @@ Maintainer/Bug report or quetion to Seong Yun (<seong.yun@msstate.edu>)
 ====================================
 Please cite the software in publications;
 
-4.1. *acdc* (stable and latest) from the R-CRAN repository
+4.1. *acdcR* (stable and latest) from the R-CRAN repository
 ---------------------------------
-To cite the R-package *acdc*, use `citation()` for information on how to cite the software;
+To cite the R-package *acdcR*, use `citation()` for information on how to cite the software;
 
 ```r
-citation(package = "acdc")
+citation(package = "acdcR")
  
-To cite package 'acdc' in publications use:
+To cite package 'acdcR' in publications use:
 
-  Seong D. Yun, (2022). acdc: Agro-Climatic Data by County. 
-  R package version 1.0.0. https://CRAN.R-project.org/package=acdc
+  Seong D. Yun, (2022). acdcR: Agro-Climatic Data by County for R. 
+  R package version 1.0.0. https://CRAN.R-project.org/package=acdcR
 
 A BibTeX entry for LaTeX users is
 
   @Manual{,
-    title = {acdc: Agro-Climatic Data by County.},
+    title = {acdcR: Agro-Climatic Data by County for R.},
     author = {Seong D. Yun},
     year = {2022},
     note = {R package version 1.0.0},
-    url = {https://CRAN.R-project.org/package=acdc},
+    url = {https://CRAN.R-project.org/package=acdcR},
   }
 ```
 
-4.2. *acdc* (testing) from the R-CRAN repository
+4.2. *acdcR* (testing) from the R-CRAN repository
 ---------------------------------
 To cite this GitHub repository:
 
 ```r
 To cite *acdc* package in publications use:
 
-  Yun, Seong D., 2022, "acdc: Agro-Climatic Data by County," Data retrieved from the GitHub,
-  https://github.com/ysd2004/acdc.
+  Yun, Seong D., 2022, "acdcR: Agro-Climatic Data by County for R" Data retrieved from the GitHub,
+  https://github.com/ysd2004/acdcR.
 
 A BibTeX entry for LaTeX users is
 
   @misc{,
-    title = {acdc: Agro-Climatic Data by County},
+    title = {acdcR: Agro-Climatic Data by County},
     author = {Seong D. Yun},
     year = {2022},
     note = {Data retrieved from the GitHub,
-    \url{https://github.com/ysd2004/acdc}}
+    \url{https://github.com/ysd2004/acdcR}}
   }
 ```
 
 
 5 References
 ====================================
-The methods and examples in *acdc* are available from:
+The methods and examples in *acdcR* are available from:
 
 * Yun, S. D. and B. M. Gramig, 2019, "Agro-Climatic Data by County: A Spatially and Temporally Consistent U.S. Dataset for Agricultural Yields, Wather and Soils," *Data*, 4(2):66. (<https://doi.org/10.1086/676034>)
 * Yun, S. D. and B. M. Gramig, 2017, "ACDC: Agro-Climatic Data by Count, 1981-2015," *Purdue University Research Repository*. (<https://doi.org/10.4231/R72F7KK2>)
@@ -117,7 +117,9 @@ The methods and examples in *acdc* are available from:
 6 Development History
 ====================================
 
-Below are the development history of R-package *acdc*.
+Below are the development history of R-package *acdcR*.
+
+* 06-18-2022: The package name change from *acdc* to *acdcR*.
 
 * 06-18-2022: V. 1.0.0 is installable from GitHub.
 
