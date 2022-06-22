@@ -115,14 +115,14 @@ The former efforts to generate the data for this package was gratefully supporte
 
 The views expressed herein do not necessarily reflect the views of the USDA-NIFA. 
 
-5 References
+6 References
 ====================================
 The methods and examples in *acdcR* are available from:
 
 * Yun, S. D. and B. M. Gramig, 2019, "Agro-Climatic Data by County: A Spatially and Temporally Consistent U.S. Dataset for Agricultural Yields, Wather and Soils," *Data*, 4(2):66. (<https://doi.org/10.1086/676034>)
 * Yun, S. D. and B. M. Gramig, 2017, "ACDC: Agro-Climatic Data by Count, 1981-2015," *Purdue University Research Repository*. (<https://doi.org/10.4231/R72F7KK2>)
 
-6 Development History
+7 Development History
 ====================================
 
 Below are the development history of R-package *acdcR*.
