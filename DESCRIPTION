@@ -13,9 +13,7 @@ Description: An R-package Agro-Climatic Data by County for R (*acdcR*) is design
   needs download of the bulk PRISM raster. See the examples, testing versions and more details from:
   <https://github.com/ysd2004/acdcR>.
 Depends:
-    R (>= 4.0.0)
-    raster
-    data.table
+    R (>= 4.0.0), raster, data.table
 License: GPL (>= 2)
 URL: https://github.com/ysd2004/acdcR
 BugReports: 
