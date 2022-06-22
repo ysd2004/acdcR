@@ -47,6 +47,7 @@
 #' @export
 #' @importFrom raster projectRaster getValues
 #' @importFrom data.table as.data.table
+#' @importFrom stats weighted.mean
 pptprism <- function(mmprism,year,out=NULL){
   ## error controls
   if (is.null(out)){

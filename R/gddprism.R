@@ -59,6 +59,7 @@
 #' @export
 #' @importFrom raster projectRaster getValues
 #' @importFrom data.table as.data.table
+#' @importFrom stats weighted.mean
 gddprism <- function(minprism,maxprism,year,tL,tU,method=c('stri','ssin'),out=NULL){
 ## error controls
 if (!(method %in% c('stri','ssin')))

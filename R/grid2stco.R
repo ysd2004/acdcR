@@ -49,6 +49,7 @@
 #' # stcores$ppt[1:10]
 #' @export
 #' @importFrom data.table as.data.table
+#' @importFrom stats weighted.mean
 grid2stco <- function(griddata,year){
 if (sum(colnames(griddata) == 'gridNum') !=1)
   stop('Error! gridNum is mssisng!')
