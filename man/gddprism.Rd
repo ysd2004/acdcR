@@ -65,7 +65,9 @@ When \code{out='stco'} is specified, the weights are applied as:\cr
 \cr
 - year = 2016, 2017, or 2018: agricultural areas in 2016 NLCD
 \cr
-- year >= 2019: agricultural areas in 2019 NLCD
+- year >= 2019: agricultural areas in 2019 NLCD\cr
+\cr
+To get a PRIMS raster, follow the instruction at \url{https://prism.oregonstate.edu/documents/PRISM_downloads_FTP.pdf}.
 }
 \examples{
 #######################################################

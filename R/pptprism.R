@@ -28,7 +28,9 @@
 #' \cr
 #' - year = 2016, 2017, or 2018: agricultural areas in 2016 NLCD
 #' \cr
-#' - year >= 2019: agricultural areas in 2019 NLCD
+#' - year >= 2019: agricultural areas in 2019 NLCD\cr
+#' \cr
+#' To get a PRIMS raster, follow the instruction at \url{https://prism.oregonstate.edu/documents/PRISM_downloads_FTP.pdf}.
 #' @return A data.frame including precipitation (ppt), PRISM grid numbers (gridNum), or FIPS codes (stco)
 #' @seealso \code{\link{gddprism}, \link{grid2stco}}
 #' @examples
