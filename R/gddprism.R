@@ -46,16 +46,18 @@
 #' #######################################################
 #' ## Note: Need PRISM rasters to run this code
 #' #######################################################
+#' \dontrun{
 #' ## PRISM data import
-#' # maxdata <- raster('./PRISM_tmax_stable_4kmD1_19960701_bil.bil')
-#' # mindata <- raster('./PRISM_tmin_stable_4kmD1_19960701_bil.bil')
+#' maxdata <- raster('./PRISM_tmax_stable_4kmD1_19960701_bil.bil')
+#' mindata <- raster('./PRISM_tmin_stable_4kmD1_19960701_bil.bil')
 #' ## Single Sine Methods over Counties
-#' # result1 <- gddprism(mindata,maxdata,1996,8,30,'ssin')
-#' # result2 <- gddprism(mindata,maxdata,1996,8,30,'ssin','stco')
+#' result1 <- gddprism(mindata,maxdata,1996,8,30,'ssin')
+#' result2 <- gddprism(mindata,maxdata,1996,8,30,'ssin','stco')
 #' ## Single Sine Method over PRISM grids 
-#' # result3 <- gddprism(mindata,maxdata,1996,8,30,'ssin','grid')
+#' result3 <- gddprism(mindata,maxdata,1996,8,30,'ssin','grid')
 #' ## Single Triangulation over Counties
-#' # result4 <- gddprism(mindata,maxdata,1996,8,30,'stri')
+#' result4 <- gddprism(mindata,maxdata,1996,8,30,'stri')
+#' }
 #' @export
 #' @importFrom raster projectRaster getValues
 #' @importFrom data.table as.data.table

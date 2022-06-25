@@ -37,16 +37,18 @@
 #' #######################################################
 #' ## Note: Need a PRISM raster to run this code
 #' #######################################################
+#' \dotrun{
 #' ## PRISM data import
-#' # pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
+#' pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
 #' ## precipitation data by grid and stco
-#' # stcores <- pptprism(pptdata,1996,'stco')
-#' # gridres <- pptprism(pptdata,1996,'grid')
+#' stcores <- pptprism(pptdata,1996,'stco')
+#' gridres <- pptprism(pptdata,1996,'grid')
 #' ## Convert the gridres to stcores
-#' # converted <- grid2stco(gridres,1996)
+#' converted <- grid2stco(gridres,1996)
 #' ## Compare the results
-#' # converted$ppt[1:10]
-#' # stcores$ppt[1:10]
+#' converted$ppt[1:10]
+#' stcores$ppt[1:10]
+#' }
 #' @export
 #' @importFrom data.table as.data.table
 #' @importFrom stats weighted.mean
