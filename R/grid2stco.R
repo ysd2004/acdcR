@@ -34,11 +34,11 @@
 #' @return A data.frame of FIPS codes (stco) and growing degree days (GDDs) or precipitation (ppt) 
 #' @seealso \code{\link{gddprism}, \link{pptprism}}
 #' @examples
+#' ## PRISM data import
 #' #######################################################
 #' ## Note: Need a PRISM raster to run this code
 #' #######################################################
-#' \dotrun{
-#' ## PRISM data import
+#' \dontrun{
 #' pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
 #' ## precipitation data by grid and stco
 #' stcores <- pptprism(pptdata,1996,'stco')
