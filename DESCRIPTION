@@ -1,13 +1,13 @@
 Package: acdcR
 Type: Package
-Title: Agro-Climatic Data by County for R
+Title: Agro-Climatic Data by County
 Version: 1.0.0
 Date: 2022-06-14
 Authors@R: c(
             person("Seong D.","Yun",role=c("aut","cre"),email="seong.yun@msstate.edu"))
 Author: Seong D. Yun [aut, cre]
 Maintainer: Seong D. Yun <seong.yun@msstate.edu>
-Description: An R-package Agro-Climatic Data by County for R (*acdcR*) is designed to provide
+Description: Agro-Climatic Data by County for R ('acdcR') is designed to provide
   base functions to calculate the most widely-used county-level variables in agricultural 
   production or agricultural-climatic and weather analyses. To operate some functions in this package
   needs download of the bulk PRISM raster. See the examples, testing versions and more details from:

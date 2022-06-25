@@ -1,4 +1,4 @@
-# *acdcR*: Agro-Climatic Data by County for R
+# *acdcR*: Agro-Climatic Data by County
 
 *This repository is to develop and distribute a testing version of R-package _acdc_. The stable latest version is directly available from R-CRAN.*
 *Data and code are subject to change*
