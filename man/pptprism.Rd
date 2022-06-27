@@ -52,13 +52,15 @@ To get a PRIMS raster, follow the instruction at \url{https://prism.oregonstate.
 #######################################################
 ## Note: Need a PRISM raster to run this code
 #######################################################
+\dontrun{
 ## PRISM data import
-# pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
+pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
 ## precipitation over Counties
-# result <- pptprism(pptdata,1996)
-# result2 <- pptprism(pptdata,1996,'stco')
+result <- pptprism(pptdata,1996)
+result2 <- pptprism(pptdata,1996,'stco')
 ## precipitation over PRISM grids
-# result3 <- pptprism(pptdata,1996,'grid')
+result3 <- pptprism(pptdata,1996,'grid')
+}
 }
 \seealso{
 \code{\link{gddprism}, \link{grid2stco}}

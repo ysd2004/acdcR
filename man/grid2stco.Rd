@@ -47,19 +47,21 @@ With the specified data year of \code{year}, the weights are applied as:\cr
 - year >= 2019: agricultural areas in 2019 NLCD
 }
 \examples{
+## PRISM data import
 #######################################################
 ## Note: Need a PRISM raster to run this code
 #######################################################
-## PRISM data import
-# pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
+\dontrun{
+pptdata <- raster('./PRISM_ppt_stable_4kmD2_19960701_bil.bil')
 ## precipitation data by grid and stco
-# stcores <- pptprism(pptdata,1996,'stco')
-# gridres <- pptprism(pptdata,1996,'grid')
+stcores <- pptprism(pptdata,1996,'stco')
+gridres <- pptprism(pptdata,1996,'grid')
 ## Convert the gridres to stcores
-# converted <- grid2stco(gridres,1996)
+converted <- grid2stco(gridres,1996)
 ## Compare the results
-# converted$ppt[1:10]
-# stcores$ppt[1:10]
+converted$ppt[1:10]
+stcores$ppt[1:10]
+}
 }
 \references{
 Schlenker, W. and M. Roberts. (2009) "Nonlinear temperature effects indicate severe damages to U.S. crop yields under climate change." \emph{Proceedings of the National Academy of Sciences (PNAS)}. 15594-15598.
