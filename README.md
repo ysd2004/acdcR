@@ -11,6 +11,7 @@ Mississippi State University\
 *Last updated: Jun. 21, 2022*
 
 ------------------------------------------------------------------------
+![CRAN/METACRAN](https://img.shields.io/cran/v/acdcR?color=blue) ![](http://cranlogs.r-pkg.org/badges/grand-total/acdcR?color=blue) 
 
 1 *acdcR* R-package
 ==========
