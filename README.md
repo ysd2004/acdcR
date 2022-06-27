@@ -1,5 +1,7 @@
 # *acdcR*: Agro-Climatic Data by County
 
+![CRAN/METACRAN](https://img.shields.io/cran/v/acdcR?color=blue) ![](http://cranlogs.r-pkg.org/badges/grand-total/acdcR?color=blue) 
+
 *This repository is to develop and distribute a testing version of R-package _acdc_. The stable latest version is directly available from R-CRAN.*
 *Data and code are subject to change*
 
@@ -11,7 +13,6 @@ Mississippi State University\
 *Last updated: Jun. 21, 2022*
 
 ------------------------------------------------------------------------
-![CRAN/METACRAN](https://img.shields.io/cran/v/acdcR?color=blue) ![](http://cranlogs.r-pkg.org/badges/grand-total/acdcR?color=blue) 
 
 1 *acdcR* R-package
 ==========
