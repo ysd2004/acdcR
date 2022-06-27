@@ -129,6 +129,8 @@ The methods and examples in *acdcR* are available from:
 
 Below are the development history of R-package *acdcR*.
 
+* 06-27-2022: The first relese of *acdcR* v.1.0.0 on R-Repository.
+
 * 06-18-2022: The package name change from *acdc* to *acdcR*.
 
 * 06-18-2022: V. 1.0.0 is installable from GitHub.
