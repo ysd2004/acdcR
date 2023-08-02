@@ -93,7 +93,7 @@ A BibTeX entry for LaTeX users is
 To cite this GitHub repository:
 
 ```r
-To cite *acdc* package in publications use:
+To cite 'acdcR' package in publications use:
 
   Yun, Seong D., 2022, "acdcR: Agro-Climatic Data by County for R" Data retrieved from the GitHub,
   https://github.com/ysd2004/acdcR.
